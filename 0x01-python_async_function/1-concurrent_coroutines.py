@@ -8,7 +8,7 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
-    """Returns a list of floats in the order of how the 
+    """Returns a list of floats in the order of how the
     coroutine was completed"""
     arr: List[asyncio.Future] = [wait_random(max_delay) for _ in range(n)]
     results: List[float] = []
