@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""1-concurrent_coroutines.py module contains async function"""
+"""1-concurrent_coroutines module contains async/await function"""
 import asyncio
 from typing import List
 from types import CoroutineType
