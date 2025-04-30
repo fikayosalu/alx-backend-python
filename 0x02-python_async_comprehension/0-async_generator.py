@@ -6,7 +6,7 @@ import random
 from typing import AsyncGenerator
 
 
-async def async_generator() -> AsyncGenerator[int, None]:
+async def async_generator() -> AsyncGenerator[float, None]:
     """Async Generator function that returns a random float from 1-10
     every second"""
     for _ in range(10):
